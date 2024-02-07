@@ -1,0 +1,27 @@
+---
+title: "To opis funkcji pakietu bw pakiet"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{nazwa-winiety}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+**Uruchomienie:**
+
+```{r setup}
+library(bwpakiet)
+```
+
+Przykład użycia:
+
+```{r przyklad}
+konwersja_temp(60)
+```
