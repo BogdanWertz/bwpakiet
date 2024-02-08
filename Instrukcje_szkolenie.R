@@ -44,3 +44,12 @@ devtools::check()
 library(testthat)
 
 usethis::use_testthat()
+
+devtools::test()
+
+#Strona internetowa pakietu - automatycznie na podstawie description, readme, vignettes
+library(pkgdown)
+usethis::pkgdown()
+
+
+usethis::use_pkgdown_github_pages()

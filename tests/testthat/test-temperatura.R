@@ -9,5 +9,5 @@ expect_equal(floor(konwersja_temp(dane_t)[1]), -185)
 })
 
 test_that("Sprawdz czy błąd", {
-expect_error(konwersja_temp(dane_t)[1], 1)
+expect_error(konwersja_temp(as.character(dane_t)[1]))
 })
