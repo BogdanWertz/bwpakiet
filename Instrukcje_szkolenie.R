@@ -49,7 +49,12 @@ devtools::test()
 
 #Strona internetowa pakietu - automatycznie na podstawie description, readme, vignettes
 library(pkgdown)
-usethis::pkgdown()
-
+usethis::use_pkgdown()
+pkgdown::build_site()
 
 usethis::use_pkgdown_github_pages()
+
+#Akcje
+usethis::use_github_action()
+
+#Reprex - reproductible examples
