@@ -39,3 +39,8 @@ write.csv(Dane_bw, "Dane_bw.csv")
 
 devtools::document()
 devtools::check()
+
+#Testy jednostkowe
+library(testthat)
+
+usethis::use_testthat()
