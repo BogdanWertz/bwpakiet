@@ -28,4 +28,10 @@ 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
 moj_df = data.frame(x = 1:10, y = 11:20)
 usethis::use_data(moj_df, overwrite = TRUE)
 
+#odnalezienie elementu
+system.file(package = "bwpakiet")
+
+#Dane przykłądowe
+Dane_bw <- data.frame("POW"= rep(1:5, each=30), "Drz" = rep(1:30, 5), "D13" = rnorm(150, mean=50, sd=20))
+usethis::use_data(Dane_bw, overwrite = TRUE)
 
